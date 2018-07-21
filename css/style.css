@@ -1,0 +1,103 @@
+body {
+    background-color: #f2f2f2f1;/*color de fondo*/
+}
+
+header {
+    background-color: #f2f2f2;
+    }
+header #sub {
+    color: #43525A;
+    font-size: 1.14286rem;
+    max-width: 1500px;    /*ancho del div*/
+    margin: auto;
+}
+#sub .menu {
+    display: flex;    /*alinea los elementos en una sola linea*/
+    justify-content: center;
+}
+.men {
+    padding: 0.35714rem;
+    color: #43525A;
+    text-decoration: none;/*quita ls linea subrayada del enlace*/
+}
+.navl {
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    }
+.navimg {
+    padding: 0.35714rem;
+    color: #43525A;
+}
+.navoc {
+    display: none;    /*Oculta el menu */
+    align-items: center;
+}
+.separ {
+    width: 1px;
+    background-color: #43525A;
+    margin: 0 0.71429rem;
+    height: 1.71429rem; /* Alto de la linea*/
+}
+.navr {
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center; /*Alinea al centro*/
+}
+.navc {
+    display: flex;/*alinea horizontalmente*/
+    flex: 1 1 100%;
+}
+#pan1 {
+    justify-content: center; /**/
+    display: flex;
+    background-color: #f2f2f2;
+}
+#pan1 .pansub {
+    position: absolute;
+    justify-content: center;
+   }
+#pan1 .pansub .imgSGV2 .img2 {
+    margin: auto;
+    z-index: 0;
+}
+#pan1 .pansub .imgSGV2 .IMGsobre {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+}
+#pan1 .pan2 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    justify-content: center;
+    max-width: 21rem;
+    font-family: "Muli", sans-serif;
+    color: #43525A;
+}
+.conten {
+    font-weight: 500;
+    font-size: 3rem;
+    max-width: 25rem;
+    font-family: "Muli", sans-serif;
+    color: #43525A;
+}
+#pan2sub {
+    display: flex;
+    align-items: center;
+}
+.primario {
+    padding: 1.57143rem 1.92857rem;
+    text-align: center;
+    z-index: 2;
+    text-decoration: none;
+    background-color: #28A5BE;
+    color: #fff;
+}
+.secundario {
+    padding: 0.85714rem 1.71429rem;
+    font-size: 1.14286rem;
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: #fff;
+}
